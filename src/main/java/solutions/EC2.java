@@ -26,8 +26,9 @@ public class EC2 {
             return null;
         if(head.val == val){
             return removeElements(head.next,val);
-        }else
+        }else {
             head.next = removeElements(head.next,val);
+        }
             return head ;
     }
 
@@ -55,7 +56,6 @@ public class EC2 {
 
 //        Solution Test
         ListNode listNode1 = new ListNode(1,new ListNode(3,new ListNode(1)));
-        ListNode listNode2 = new ListNode(2,new ListNode(4,new ListNode(6)));
         ListNode.printList(removeElements(listNode1,1));
         System.out.println(isPowerOfThree(0));
         System.out.println(fib(2));
