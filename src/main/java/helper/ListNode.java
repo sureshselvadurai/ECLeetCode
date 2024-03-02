@@ -12,5 +12,6 @@ package helper;
               System.out.print(current.val + "->");
               current = current.next;
           }
+          System.out.println("\n");
       }
   }
