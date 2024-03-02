@@ -8,11 +8,11 @@ import helper.ListNode;
 //  You must solve the problem in O(1) extra space complexity and O(n) time complexity.
 //  Reference : https://leetcode.com/problems/odd-even-linked-list/description/
 
-
 //Problem 1 :1721. Swapping Nodes in a Linked List (Medium)
 //        You are given the head of a linked list, and an integer k.
 //        Return the head of the linked list after swapping the values of the kth node from the beginning and the kth node from the end (the list is 1-indexed).
 //Reference : https://leetcode.com/problems/swapping-nodes-in-a-linked-list/description/
+
 public class EC5 {
 
     public static ListNode oddEvenList(ListNode head) {
@@ -63,7 +63,7 @@ public class EC5 {
 
     public static void main(String[] args) {
 
-//        Solution 1 Test
+//        Solution 1,2 Test
         ListNode listNode1 = new ListNode(3,new ListNode(4,new ListNode(5)));
         ListNode listNode2 = new ListNode(1,new ListNode(2,listNode1));
         ListNode.printList(oddEvenList(listNode1));
